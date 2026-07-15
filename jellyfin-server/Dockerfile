@@ -5,6 +5,7 @@ ENV JELLYFIN_DATA_DIR=/share/jellyfin
 ENV JELLYFIN_CONFIG_DIR=/share/jellyfin/config
 ENV JELLYFIN_CACHE_DIR=/share/jellyfin/cache
 ENV JELLYFIN_LOG_DIR=/share/jellyfin/log
+ENV JELLYFIN_WEB_DIR=/share/jellyfin/web
 
 # Override original entrypoint
 ENTRYPOINT ["./jellyfin/jellyfin"]
